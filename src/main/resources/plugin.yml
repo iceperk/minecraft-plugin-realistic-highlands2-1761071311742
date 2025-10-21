@@ -1,0 +1,17 @@
+name: RealisticHighlands2
+version: 1.0
+main: com.realistichighlands2.RealisticHighlands2
+api-version: 1.21
+author: YourName
+description: A plugin that enhances world generation for realistic highlands.
+
+commands:
+  generatehighlands:
+    description: Generates a new world with realistic highlands.
+    permission: realistichighlands.generate
+    usage: /generatehighlands <worldname>
+
+permissions:
+  realistichighlands.generate:
+    description: Permission for generatehighlands command
+    default: op
